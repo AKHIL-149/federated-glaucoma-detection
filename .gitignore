@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch models
+*.pt
+*.pth
+*.ckpt
+
+# TensorFlow models
+*.h5
+*.keras
+saved_model/
+
+# Data files
+*.csv
+*.hdf5
+*.npy
+*.npz
+
+# Datasets (too large)
+data/raw/
+data/processed/
+preprocessed_outputs/
+
+# Model outputs (too large)
+saved_models/
+checkpoints/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+venv/
+env/
+ENV/
+.env
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar

@@ -1,0 +1,5 @@
+Dataset link:
+EyePACS–AIROGS-light-V2: https://www.kaggle.com/datasets/deathtrooper/glaucoma-dataset-eyepacs-airogs-light-v2
+External sets: 
+REFUGE: https://www.kaggle.com/datasets/victorlemosml/refuge2
+PAPILA: https://figshare.com/articles/dataset/PAPILA/14798004/1?file=28454352
