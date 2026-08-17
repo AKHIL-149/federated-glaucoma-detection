@@ -1,0 +1,100 @@
+=== SAMPLE 1 ===
+Path: D:\Federated Generative AI Framework\preprocessed_outputs\EyePACS_AI-ROGS_LightV2\plots\EyePACS-TRAIN-RG-557_comparison.png
+Clinical Explanation (Template-Based)
+------------------------------------
+Risk Impression           : LOW
+Confidence (from uncertainty) : HIGH
+Uncertainty (0-1)         : 0.102   (lower is better)
+Model Confidence Score    : 0.898 (higher is better)
+Risk Proxy Score          : 0.133 (higher suggests higher risk)
+
+Reasoning:
+1) Risk proxy score indicates the model's glaucoma risk tendency.
+2) Uncertainty quantifies how stable the prediction is (MC-dropout/ensemble behavior).
+3) Confidence is derived from uncertainty_bin and confidence_score for decision robustness.
+
+Clinical Decision Template:
+- Primary action  : ROUTINE monitoring
+- Priority        : Low priority
+- Quality note    : Uncertainty is acceptable; interpretation is reasonably stable.
+
+Suggested next clinical checks:
+- Cup-to-disc ratio assessment
+- Optic disc rim evaluation
+- IOP measurement (if available)
+- Visual field / OCT confirmation for moderate-to-high risk
+
+=== SAMPLE 2 ===
+Path: D:\Federated Generative AI Framework\preprocessed_outputs\EyePACS_AI-ROGS_LightV2\plots\EyePACS-TRAIN-RG-2935_comparison.png
+Clinical Explanation (Template-Based)
+------------------------------------
+Risk Impression           : LOW
+Confidence (from uncertainty) : HIGH
+Uncertainty (0-1)         : 0.162   (lower is better)
+Model Confidence Score    : 0.838 (higher is better)
+Risk Proxy Score          : 0.191 (higher suggests higher risk)
+
+Reasoning:
+1) Risk proxy score indicates the model's glaucoma risk tendency.
+2) Uncertainty quantifies how stable the prediction is (MC-dropout/ensemble behavior).
+3) Confidence is derived from uncertainty_bin and confidence_score for decision robustness.
+
+Clinical Decision Template:
+- Primary action  : ROUTINE monitoring
+- Priority        : Low priority
+- Quality note    : Uncertainty is acceptable; interpretation is reasonably stable.
+
+Suggested next clinical checks:
+- Cup-to-disc ratio assessment
+- Optic disc rim evaluation
+- IOP measurement (if available)
+- Visual field / OCT confirmation for moderate-to-high risk
+
+=== SAMPLE 3 ===
+Path: D:\Federated Generative AI Framework\preprocessed_outputs\EyePACS_AI-ROGS_LightV2\plots\EyePACS-TRAIN-RG-2541_comparison.png
+Clinical Explanation (Template-Based)
+------------------------------------
+Risk Impression           : LOW
+Confidence (from uncertainty) : HIGH
+Uncertainty (0-1)         : 0.155   (lower is better)
+Model Confidence Score    : 0.845 (higher is better)
+Risk Proxy Score          : 0.149 (higher suggests higher risk)
+
+Reasoning:
+1) Risk proxy score indicates the model's glaucoma risk tendency.
+2) Uncertainty quantifies how stable the prediction is (MC-dropout/ensemble behavior).
+3) Confidence is derived from uncertainty_bin and confidence_score for decision robustness.
+
+Clinical Decision Template:
+- Primary action  : ROUTINE monitoring
+- Priority        : Low priority
+- Quality note    : Uncertainty is acceptable; interpretation is reasonably stable.
+
+Suggested next clinical checks:
+- Cup-to-disc ratio assessment
+- Optic disc rim evaluation
+- IOP measurement (if available)
+- Visual field / OCT confirmation for moderate-to-high risk
+
+=== SAMPLE 4 ===
+Path: D:\Federated Generative AI Framework\preprocessed_outputs\EyePACS_AI-ROGS_LightV2\train\NRG\EyePACS-TRAIN-NRG-1309_preprocessed.png
+Clinical Explanation (Template-Based)
+------------------------------------
+Risk Impression           : LOW
+Confidence (from uncertainty) : HIGH
+Uncertainty (0-1)         : 0.025   (lower is better)
+Model Confidence Score    : 0.975 (higher is better)
+Risk Proxy Score          : 0.015 (higher suggests higher risk)
+
+Reasoning:
+1) Risk proxy score indicates the model's glaucoma risk tendency.
+2) Uncertainty quantifies how stable the prediction is (MC-dropout/ensemble behavior).
+3) Confidence is derived from uncertainty_bin and confidence_score for decision robustness.
+
+Clinical Decision Template:
+- Primary action  : ROUTINE monitoring
+- Priority        : Low priority
+- Quality note    : Uncertainty is acceptable; interpretation is reasonably stable.
+
+Suggested next clinical checks:
+- Cup-to-disc ratio assessment
